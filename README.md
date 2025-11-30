@@ -1,4 +1,4 @@
-# sonictag
+# SonicTag
 AI based music genre predictor
 
 This project requires the GTZAN Music Genre Dataset. 
