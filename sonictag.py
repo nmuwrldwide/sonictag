@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-DATASET_PATH = r"C:\Users\Sherry\Desktop\colleg\sonictag\genres"
+DATASET_PATH = r"path/goes/here"
 
 
 def extract_features(file_path):
@@ -80,4 +80,5 @@ if __name__ == "__main__":
     import joblib
     joblib.dump(model, "music_genre_model.pkl")
     print("Model saved as 'music_genre_model.pkl'")
+
 
